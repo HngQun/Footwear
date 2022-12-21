@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/Quan.css">
+    <link rel="stylesheet" href="Css/Long.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>  </head>
+<body>
+    <header>
+        <h2>Footwear</h2>
+        <div class="search">
+            <form action="">
+                <input type="text" required>
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <div class="nav-bar">
+        <a href="index.html">Home</a>
+        <div class="drop-down">
+            <button class="drop-btn">Danh mục</button>
+          <div class="drop-down-content">
+            <a href="Danhmuc.html">Men</a>
+            <a href="Danhmuc.html">Women</a>
+            <a href="Danhmuc.html">Tất cả sản phẩm</a>
+          </div>
+        </div>
+        <a href="Thongtin.html">Thông tin</a>
+        <a href="Lienhe.html">Liên hệ</a>
+        <a id="right" href="Giohang.html">Giỏ hàng</a>
+        <a id="right" href="">Tài khoản</a>
+    </div>
+
+    <br>
+    <h6>Home / Giỏ hàng</h6>
+    <br>
+    <!-- giỏ hàng -->
+    <section> 
+        <div class="container">
+            <div class="cart-container ">
+                <div class="cart-content-left">
+                    <table>
+                        <tr>
+                            <th>Sản phẩm </th>
+                            <th>Tên sản phẩm</th>
+                            <th>Size</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                            <th>Xóa</th>
+                        </tr>
+
+                        <tr>
+                            <td> <img src="images/item-1.jpg" alt="#"> </td>
+                            <td> Giày thể thao</td>
+                            <td>40</td>
+                            <td> <input type="number" value="1" min="1"></td>
+                            <td> <p>600.000 VNĐ </p> </td>
+                            <td> <button><box-icon name='x'></box-icon> </td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td> <img src="images/item-3.jpg" alt="#"> </td>
+                            <td> Giày thể thao</td>
+                            <td>40</td>
+                            <td> <input type="number" value="1" min="1"></td>
+                            <td> <p>600.000 VNĐ </p> </td>
+                            <td><button><box-icon name='x'></box-icon> </td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td> <img src="images/item-10.jpg" alt="#"> </td>
+                            <td> Giày thể thao</td>
+                            <td>40</td>
+                            <td> <input type="number" value="1" min="1"></td>
+                            <td> <p>600.000 VNĐ </p> </td>
+                            <td>  <button><box-icon name='x'></box-icon>  </td>
+                        </tr>
+                    </table>
+                </div >
+                
+                <div class="cart-content-right">
+                    <table>
+                        <tr>
+                            <th colspan="2"> TỔNG TIỀN GIỎ HÀNG</th>
+                        </tr>
+                        <tr>
+                            <td>TỔNG SẢN PHẨM</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>TỔNG TIỀN HÀNG</td>
+                            <td><p>600.000 VNĐ</p></td>
+                        </tr>
+                        <tr>
+                            <td>TẠM TÍNH</td>
+                            <td style="color:black ; font-weight: bold;"><p>600.00 VNĐ</p></td>
+                        </tr>
+                    </table>
+
+                    <div class="cart-content-right-text">
+                        <p>Bạn sẽ được miễn phí ship khi mua đơn hàng của bạn có tổng giá trị trên 2.000.000 VNĐ</p>
+                        <p style="color: red ;">Mua thêm <span style="font-size:18px ;" >100.000 VNĐ</span> để được miễn phí SHIP</p>
+                    </div>
+
+                    <div class="cart-content-right-button">
+                        <button>TIẾP TỤC MUA SẮM</button>
+                        <button>THANH TOÁN</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- end -->
+
+    <br><br><br>
+
+    <footer>
+        <table>
+            <tr>
+                <th><h4>Về Footwear</h4></th>
+                <th><h4>Chăm sóc khách hàng</h4></th>
+                <th><h4>Thông tin</h4></th>
+                <th><h4>Tin mới</h4></th>
+                <th><h4>Thông tin liên hệ</h4></th>
+            </tr>
+            <tr>
+                <td>Chúng tôi tự tin là nhà cung cấp và phân phối <br> giày tốt nhất Việt Nam và hàng đầu thế giới.</td>
+                <td><a href="#">Liên hệ</a></td>
+                <td><a href="#">Về chúng tôi</a></td>
+                <td><a href="#">Blog</a></td>
+                <td>367 Kim Mã, Quận Ba Đình, Hà Nội  <br>129 Giát Bát, Quận Hoàng Mai, Hà Nội </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Trả hàng / Đổi hàng</a></td>
+                <td><a href="#">Thông tin giao hàng</a></td>
+                <td><a href="#">Press</a></td>
+                <td><a href="tel://1234567920">+ 1235 2355 98</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Gift Voucher</a></td>
+                <td><a href="#">Chính sách bảo mật</a></td>
+                <td><a href="#">Exhibitions</a></td>
+                <td><a href="mailto:caigido@gmail.com">caigido@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Danh sách yêu thích</a></td>
+                <td><a href="#">Hỗ trợ</a></td>
+                <td></td>
+                <td><a href="#">bangiay.com</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Danh sách đặc biệt</a></td>
+                <td><a href="#">Theo dõi đơn hàng</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Dịch vụ khách hàng</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="#">Địa chỉ</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
