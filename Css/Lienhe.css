@@ -1,0 +1,81 @@
+#lienhe {
+    background-color: #f8f9fa;
+    width: 40%;
+    float: left;
+    margin-left: 10%;  
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+#banglienhe {
+    margin-top: 20px;
+    margin-left: 30px;    
+    width: 100%;
+}
+.otraloi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.traloi {
+    width: 85%;
+    border-radius: 7px;
+    border: 1px solid #c3c6c9;
+    height: 40px;
+}
+#mess{
+    width: 85%;
+    border-radius: 7px;
+    border: 1px solid #c3c6c9; 
+}
+#GetInTouch{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.cauhoi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.566);
+}
+#thongtinlienhe{
+    margin-left: 10%;
+    width: 90%;
+    
+}
+#bangthongtinlienhe{
+    width: 100%;
+}
+.diachi1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+#tenlienhe {
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+#bando{
+    margin-top: 50px;
+    width: 40%;
+    margin-bottom: 100px;
+    margin-right: 9%; 
+    float: left;
+    margin-left: 1%;
+}
+#submit{
+    color: #f8f9fa;
+    background-color: black;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#submit:hover{
+    color: black;
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,169 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-filter{
+    background-color: rgb(228, 228, 228);
+    width: 90%;
+    height: 40px;
+    margin-left: 70px;
+}
+
+section{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section a{
+    text-decoration: none;
+    text-align: center;  
+}
+
+section h2,span{
+    text-align: center;
+    font-size: 14px;
+}
+
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.headline{
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+}
+
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+
+
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+
+ul.products li .product-top a.buy-now{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: -44px;
+    width: 100%;
+    transition: 0.25s ease-in-out;   
+}
+
+ul.products li:hover ,.product-top .product-thumb img{
+    filter: opacity(80%);
+}
+
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+    opacity: 0.7;
+}
+
+ul.products li .product-info{
+    padding: 10px 0;
+}
+
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+
+ul.products li .product-info a.product-name{
+    color: #334862;
+}
+
+ul.products li .product-info .product-price{
+    color: #111;
+    padding: 2px 0;
+    font-weight: 600;
+}
+
+.page-number{
+    padding-left: 45%;
+}
+
+.page {
+    padding-top: 10px;
+    margin-left: 2%;
+}
+
+#chonsp{
+    margin-left: 5%;
+}
+
+#accordion{
+    padding-top: 60px;
+    float: left;
+    width: 15%;
+}
+
+#accordion>.cap  { 
+    background: #7db3c4; 
+    padding: 8px 10px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    color: white;
+    font-size: 18px;
+}
+#accordion > .ct > label {
+    margin: 8px 0 8px 30px;
+    font-size: 14px; 
+    display: block; 
+    cursor: pointer; 
+}
+#accordion > .ct input { 
+    width: 16px; 
+    height: 16px; 
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #accordion{
+        display: none;
+    }
+    #chonsp{
+        display: none;
+    }
+    
+}
